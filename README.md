@@ -4,6 +4,10 @@ This repository hosts the public project page for:
 
 **WiSER: A Wireless Scene Encoder for Geometry-Grounded Multi-View Wireless Prediction**
 
+Project page:
+
+https://scp10086.github.io/wiser-page/
+
 Current release status:
 
 - Paper/arXiv: coming soon.
