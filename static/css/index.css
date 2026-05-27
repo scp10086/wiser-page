@@ -4,19 +4,6 @@ body {
   background: #ffffff;
 }
 
-.wiser-nav {
-  border-bottom: 1px solid rgba(36, 48, 66, 0.08);
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(14px);
-}
-
-.wiser-brand {
-  font-family: 'Google Sans', sans-serif;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  color: #123c58;
-}
-
 .wiser-hero {
   background:
     radial-gradient(circle at 80% 15%, rgba(107, 193, 176, 0.24), transparent 30%),
@@ -38,6 +25,52 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 980px;
+}
+
+.hero-quick-links {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.65rem;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.quick-link {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(23, 52, 74, 0.10);
+  border-radius: 999px;
+  color: #284257;
+  display: inline-flex;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  gap: 0.35rem;
+  min-height: 2.5rem;
+  padding: 0 0.95rem;
+}
+
+.quick-link:hover {
+  color: #2b7a78;
+}
+
+.research-button {
+  background: transparent;
+  border: 0;
+  color: #284257;
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
+  height: auto;
+  padding: 0;
+}
+
+.research-button:hover {
+  color: #2b7a78;
+}
+
+.dropdown-item.is-muted {
+  color: #66788f;
+  cursor: default;
 }
 
 .eyebrow {
@@ -81,6 +114,18 @@ body {
 
 .author-block {
   display: inline-block;
+}
+
+.publication-authors a {
+  color: #2b7a78 !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors a.author-link-placeholder {
+  color: #3b6280 !important;
 }
 
 .publication-links {
@@ -254,5 +299,9 @@ body {
   .metric-grid,
   .release-list {
     grid-template-columns: 1fr;
+  }
+
+  .hero-quick-links {
+    flex-wrap: wrap;
   }
 }

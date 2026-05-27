@@ -23,30 +23,30 @@
 </head>
 <body>
 
-<nav class="navbar wiser-nav" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item wiser-brand" href="#">WiSER</a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="wiser-navbar">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div id="wiser-navbar" class="navbar-menu">
-    <div class="navbar-end">
-      <a class="navbar-item" href="#abstract">Abstract</a>
-      <a class="navbar-item" href="#method">Method</a>
-      <a class="navbar-item" href="#dataset">Dataset</a>
-      <a class="navbar-item" href="#results">Results</a>
-      <a class="navbar-item" href="#release">Release</a>
-    </div>
-  </div>
-</nav>
-
 <section class="hero wiser-hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="hero-copy has-text-centered">
+        <div class="hero-quick-links">
+          <a class="quick-link" href="https://scp10086.github.io/">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span>Home</span>
+          </a>
+          <div class="quick-link dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button is-white is-rounded research-button" aria-haspopup="true" aria-controls="research-menu">
+                <span>More Research</span>
+                <span class="icon is-small"><i class="fas fa-angle-down" aria-hidden="true"></i></span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="research-menu" role="menu">
+              <div class="dropdown-content">
+                <a class="dropdown-item" href="https://scp10086.github.io/wiser-page/">WiSER</a>
+                <span class="dropdown-item is-muted">More projects coming soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <p class="eyebrow">Geometry-Grounded Wireless Prediction</p>
         <h1 class="title publication-title">
           WiSER: A Wireless Scene Encoder for Geometry-Grounded Multi-View Wireless Prediction
@@ -58,9 +58,12 @@
         </p>
 
         <div class="publication-authors">
-          <span class="author-block">Jing Qiao</span>,
-          <span class="author-block">Yiyang Guo</span>,
-          <span class="author-block">Hao Ye</span>
+          <span class="author-block">
+            <a href="https://scp10086.github.io/">Jing Qiao</a></span>,
+          <span class="author-block">
+            <a href="#" class="author-link-placeholder" title="Personal page coming soon">Yiyang Guo</a></span>,
+          <span class="author-block">
+            <a href="#" class="author-link-placeholder" title="Personal page coming soon">Hao Ye</a></span>
         </div>
         <div class="publication-authors institution">
           University of California Santa Cruz
